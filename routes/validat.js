@@ -30,7 +30,7 @@ router.get("/manage",function(req,res,next){
         res.redirect("/admin");
     }
 });
-*/
+
 router.get("/manage/*",function(req,res,next){
 
     if(isAdminLogined(req)){
@@ -40,7 +40,7 @@ router.get("/manage/*",function(req,res,next){
     }
 
 });
-
+*/
 //自定义校验扩展
 validator.extend('isUserName', function (str) {
     return /^[a-zA-Z][a-zA-Z0-9_]{4,11}$/.test(str);
