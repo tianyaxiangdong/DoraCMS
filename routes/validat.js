@@ -20,7 +20,7 @@ router.get("/",function(req,res,next){
         next();
     }
 });
-
+/*
 router.get("/manage",function(req,res,next){
     if(isAdminLogined(req)){
         adminFunc.authDoraCMS(req, res,function(){
@@ -30,7 +30,7 @@ router.get("/manage",function(req,res,next){
         res.redirect("/admin");
     }
 });
-
+*/
 router.get("/manage/*",function(req,res,next){
 
     if(isAdminLogined(req)){
