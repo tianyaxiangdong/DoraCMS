@@ -12,6 +12,7 @@ var ContentTemplate = require("../ContentTemplate");
 var TemplateItems = require("../TemplateItems");
 //广告对象
 var Ads = require("../Ads");
+var Config = require("../Config");
 //留言对象
 var Message = require("../Message");
 var settings = require("./settings");
@@ -106,6 +107,10 @@ var siteFunc = {
         return ContentCategory.find({'parentID': '0', 'state': '1'}, 'name defaultUrl').sort({'sortId': 1}).find();
     },
 
+    getModifyConfig: function () {
+        return Config.find();
+    },
+
     getHotItemListData: function (q) {
         return Content.find(q, 'stitle').sort({'clickNum': -1}).skip(0).limit(10);
     },
@@ -159,7 +164,8 @@ var siteFunc = {
             documentList: documentList.docs,
             hotItemListData: this.getHotItemListData({}),
             friendLinkData: this.getFriendLink(),
-            cateTypes: this.getCategoryList(),
+            cateTypes: this.getModifyConfig(),
+  //          cateTypes: this.getCategoryList(),
             cateInfo: '',
             tagsData: tagsData,
             pageInfo: documentList.pageInfo,
