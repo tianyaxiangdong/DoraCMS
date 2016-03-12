@@ -89,7 +89,7 @@ em {
 }
 
 .footer {
-    background: rgba(0, 0, 0, 0) url("../images/footer.jpg") no-repeat scroll right bottom;
+
     border-top: 1px solid #ededed;
     clear: both;
     color: #5b5b5b;
@@ -318,14 +318,11 @@ em {
 /**/
 @charset "utf-8";
 /* CSS Document */
-body {
-    background: url(http://res.cngoldres.com/group/img/gppsq_body_bg.jpg) repeat;
-}
 
 .constant {
     width: 100%;
     height: auto;
-    background: url(http://res.cngoldres.com/group/img/gppsq_constant_bg.jpg) center top no-repeat;
+
     position: relative;
     overflow: hidden;
 }

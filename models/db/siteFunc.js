@@ -108,6 +108,7 @@ var siteFunc = {
     },
 
     getModifyConfig: function () {
+
         return Config.find();
     },
 
