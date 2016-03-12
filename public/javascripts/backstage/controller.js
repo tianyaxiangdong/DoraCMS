@@ -31,6 +31,19 @@ doraApp.controller("mainPanel", ['$scope', '$http', function ($scope, $http) {
         $scope.mainData = result;
     });
 
+    $http({
+        url: '/admin/manage/modifyConfig/list',
+        method: 'GET'
+    }).success(function (data, header, config, status) {
+        if (data.length > 0) {
+            console.info(data);
+            var _data = data[0];
+            $scope.config = _data;
+        }
+    }).error(function (data, header, config, status) {
+
+    });
+
 }]);
 
 
