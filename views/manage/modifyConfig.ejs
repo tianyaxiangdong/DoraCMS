@@ -1,0 +1,55 @@
+<div class="row" ng-controller="modifyConfig">
+    <div class="col-xs-12">
+        <div class="box box-default">
+            <div class="box-header">
+                <div class="alert alert-success alert-dismissable fade in hide" role="alert" id="addSuccess">
+                    <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
+                    <p><i class="icon fa fa-check"></i> <strong>恭喜！</strong>内容添加成功</p>
+                </div>
+                <p class="myInfoBox bg-warning text-warning"><i class="icon fa fa-warning"></i> 信息填写完整无误才可提交</p>
+            </div>
+            <div class="box-body">
+                <form role="form" class="form-horizontal" name="myForm" ng-submit="processForm()" novalidate>
+
+                    <div class="form-group">
+                        <label class="control-label col-sm-3">缩略图</label>
+                        <div class="col-sm-3">
+                            <input type="file" name="uploadify" id="uploadContentImg" />
+                            <img src="" alt="" width="120" height="120" class="img-thumbnail" id="myImg">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label col-sm-3">pic2</label>
+                        <div class="col-sm-3">
+                            <input type="file" name="uploadify" id="pic2" />
+                            <img src="" alt="" width="120" height="120" class="img-thumbnail" id="myImg2">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label col-sm-3">pic3</label>
+                        <div class="col-sm-3">
+                            <input type="file" name="uploadify" id="pic3" />
+                            <img src="" alt="" width="120" height="120" class="img-thumbnail" id="myImg3">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label col-sm-3">pic4</label>
+                        <div class="col-sm-3">
+                            <input type="file" name="uploadify" id="pic4" />
+                            <img src="" alt="" width="120" height="120" class="img-thumbnail" id="myImg4">
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary" >确认</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -13,12 +13,12 @@ module.exports = {
     auth_cookie_name: 'doracms',
     encrypt_key : 'dora',
 //    数据库配置
-    URL: 'mongodb://127.0.0.1:27017/doracms',
+    URL: 'mongodb://doracms:zxcvASDF123$@139.196.11.84:27017/doracms',
     DB: 'doracms',
     HOST: '',
     PORT: 27017,
-    USERNAME: '',
-    PASSWORD: '',
+    USERNAME: 'doracms',
+    PASSWORD: 'zxcvASDF123$',
 
 
 //    站点基础信息配置
@@ -44,6 +44,7 @@ module.exports = {
     ADMINGROUPLIST : new Array('sysTemManage_uGroup','系统用户组管理'),
     ADSLIST : new Array('sysTemManage_ads','广告管理'),
     FILESLIST : new Array('sysTemManage_files','文件管理'),
+    MODIFYCONFIG : new Array('sysTemManage_modifyconfig','界面配置'),
     DATAMANAGE : new Array('sysTemManage_data','数据管理'), // 数据管理
     BACKUPDATA : new Array('sysTemManage_data_1','数据备份'), // 数据备份
     SYSTEMLOGS : new Array('sysTemManage_logs','操作日志'), // 系统操作日志

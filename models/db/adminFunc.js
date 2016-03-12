@@ -12,6 +12,8 @@ var AdminUser = require("../AdminUser");
 var AdminGroup = require("../AdminGroup");
 // 文档对象
 var Content = require("../Content");
+// 界面配置
+var Config = require("../Config");
 //数据操作日志
 var DataOptionLog = require("../DataOptionLog");
 //文章类别对象
@@ -179,6 +181,8 @@ var adminFunc = {
             targetObj = Ads;
         }else if(currentPage.indexOf(settings.FILESLIST[0]) >=0 ){
             targetObj = Files;
+        }else if(currentPage.indexOf(settings.MODIFYCONFIG[0]) >=0 ){
+            targetObj = Config;
         }else if(currentPage.indexOf(settings.BACKUPDATA[0]) >=0 ){
             targetObj = DataOptionLog;
         }else if(currentPage.indexOf(settings.SYSTEMLOGS[0]) >=0 ){

@@ -74,7 +74,7 @@ function initUploadFyBtn(id,type,key,callBack){
     var buttonText = '上传图片';
     var uploadApi = '/system/upload';
     var autoUpdate = true;
-    var sizeLimit = 1024 * 1024 * 1;
+    var sizeLimit = 2048 * 2048 * 1;
     var adminId = $('#adminId').val();
     var buttonWidth = 100;
     var buttonStyle = 'uploadify-btn-default';

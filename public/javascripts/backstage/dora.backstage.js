@@ -328,6 +328,12 @@ function setAdminPowerTreeData(){
         { id:'sysTemManage_uGroup_modify', pId:'sysTemManage_uGroup', name:"修改"},
         { id:'sysTemManage_uGroup_del', pId:'sysTemManage_uGroup', name:"删除"},
 
+        { id:'sysTemManage_modifyConfig', pId:'sysTemManage', name:"界面配置", open:true},
+        { id:'sysTemManage_modifyConfig_add', pId:'sysTemManage_modifyConfig', name:"新增"},
+        { id:'sysTemManage_modifyConfig_view', pId:'sysTemManage_modifyConfig', name:"查看"},
+        { id:'sysTemManage_modifyConfig_modify', pId:'sysTemManage_modifyConfig', name:"修改"},
+        { id:'sysTemManage_modifyConfig_del', pId:'sysTemManage_modifyConfig', name:"删除"},
+
         { id:'sysTemManage_ads', pId:'sysTemManage', name:"广告管理", open:true},
         { id:'sysTemManage_ads_add', pId:'sysTemManage_ads', name:"新增"},
         { id:'sysTemManage_ads_view', pId:'sysTemManage_ads', name:"查看"},
