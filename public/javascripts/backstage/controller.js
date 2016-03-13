@@ -595,6 +595,12 @@ doraApp.controller("modifyConfig", ['$scope', '$http', 'pageData', 'getItemServi
             $("#myImg16").attr("src", _data.pic16);
             $scope.formData.pic17 = _data.pic17;
             $("#myImg17").attr("src", _data.pic17);
+
+            $scope.formData.str1 = _data.str1;
+            $scope.formData.str2 = _data.str2;
+            $scope.formData.str3 = _data.str3;
+            $scope.formData.str4 = _data.str4;
+
         }
     }).error(function (data, header, config, status) {
 
