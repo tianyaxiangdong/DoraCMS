@@ -444,7 +444,7 @@ em {
 /* main */
 .main {
     width: 910px;
-    padding: 40px 45px 0px;
+    padding: 140px 0px;
     margin: 0 auto;
 }
 
@@ -458,6 +458,7 @@ em {
 
 .section {
     height: 417px;
+    width: 910px;
     position: relative;
     margin-bottom: 80px;
 }
@@ -484,6 +485,8 @@ em {
 
 .section_tit.title01 {
     left: 285px;
+    top: -50px;
+    height: 80px;
 }
 
 .section_tit.title02 {
@@ -492,15 +495,14 @@ em {
 
 .section_tit span {
     display: block;
-    height: 35px;
+    font-size: 26px;
+    margin: auto;
     overflow: hidden;
-    text-indent: -999em;
-    margin: 14px auto 0;
 }
 
 .section_tit span.stit01 {
     width: 389px;
-    background: url(http://res.cngoldres.com/group/img/gppsq_section_allbg.png) 0 -764px no-repeat;
+
 }
 
 .section_tit span.stit02 {
