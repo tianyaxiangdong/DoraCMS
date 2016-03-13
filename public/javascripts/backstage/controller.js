@@ -576,6 +576,25 @@ doraApp.controller("modifyConfig", ['$scope', '$http', 'pageData', 'getItemServi
             $("#myImg6").attr("src", _data.pic6);
             $("#myImg7").attr("src", _data.pic7);
             $("#myImg8").attr("src", _data.pic8);
+
+            $scope.formData.pic9 = _data.pic9;
+            $("#myImg9").attr("src", _data.pic9);
+            $scope.formData.pic10 = _data.pic10;
+            $("#myImg10").attr("src", _data.pic10);
+            $scope.formData.pic11 = _data.pic11;
+            $("#myImg11").attr("src", _data.pic11);
+            $scope.formData.pic12 = _data.pic12;
+            $("#myImg12").attr("src", _data.pic12);
+            $scope.formData.pic13 = _data.pic13;
+            $("#myImg13").attr("src", _data.pic13);
+            $scope.formData.pic14 = _data.pic14;
+            $("#myImg14").attr("src", _data.pic14);
+            $scope.formData.pic15 = _data.pic15;
+            $("#myImg15").attr("src", _data.pic15);
+            $scope.formData.pic16 = _data.pic16;
+            $("#myImg16").attr("src", _data.pic16);
+            $scope.formData.pic17 = _data.pic17;
+            $("#myImg17").attr("src", _data.pic17);
         }
     }).error(function (data, header, config, status) {
 
@@ -660,6 +679,105 @@ doraApp.controller("modifyConfig", ['$scope', '$http', 'pageData', 'getItemServi
             callBack: function () {
                 $("#myImg8").attr("src", data);
                 $scope.formData.pic8 = data;
+            }
+        });
+    });
+
+    initUploadFyBtn('pic9', 'images', "ctTopImg", function (data) {
+        $.tipsShow({
+            message: '上传成功',
+            type: 'success',
+            callBack: function () {
+                $("#myImg9").attr("src", data);
+                $scope.formData.pic9 = data;
+            }
+        });
+    });
+
+    initUploadFyBtn('pic10', 'images', "ctTopImg", function (data) {
+        $.tipsShow({
+            message: '上传成功',
+            type: 'success',
+            callBack: function () {
+                $("#myImg10").attr("src", data);
+                $scope.formData.pic10 = data;
+            }
+        });
+    });
+
+    initUploadFyBtn('pic11', 'images', "ctTopImg", function (data) {
+        $.tipsShow({
+            message: '上传成功',
+            type: 'success',
+            callBack: function () {
+                $("#myImg11").attr("src", data);
+                $scope.formData.pic11 = data;
+            }
+        });
+    });
+
+    initUploadFyBtn('pic12', 'images', "ctTopImg", function (data) {
+        $.tipsShow({
+            message: '上传成功',
+            type: 'success',
+            callBack: function () {
+                $("#myImg12").attr("src", data);
+                $scope.formData.pic12 = data;
+            }
+        });
+    });
+
+    initUploadFyBtn('pic13', 'images', "ctTopImg", function (data) {
+        $.tipsShow({
+            message: '上传成功',
+            type: 'success',
+            callBack: function () {
+                $("#myImg13").attr("src", data);
+                $scope.formData.pic13 = data;
+            }
+        });
+    });
+
+    initUploadFyBtn('pic14', 'images', "ctTopImg", function (data) {
+        $.tipsShow({
+            message: '上传成功',
+            type: 'success',
+            callBack: function () {
+                $("#myImg14").attr("src", data);
+                $scope.formData.pic14 = data;
+            }
+        });
+    });
+
+    initUploadFyBtn('pic15', 'images', "ctTopImg", function (data) {
+        $.tipsShow({
+            message: '上传成功',
+            type: 'success',
+            callBack: function () {
+                $("#myImg15").attr("src", data);
+                $scope.formData.pic15 = data;
+            }
+        });
+    });
+
+    initUploadFyBtn('pic16', 'images', "ctTopImg", function (data) {
+        $.tipsShow({
+            message: '上传成功',
+            type: 'success',
+            callBack: function () {
+                $("#myImg16").attr("src", data);
+                $scope.formData.pic16 = data;
+            }
+        });
+    });
+
+    initUploadFyBtn('pic17', 'images', "ctTopImg", function (data) {
+        $.tipsShow({
+            message: '上传成功',
+            type: 'success',
+            callBack: function () {
+                $("#myImg17").attr("src", data);
+                $scope.formData.pic17 = data;
             }
         });
     });

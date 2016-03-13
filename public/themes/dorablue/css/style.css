@@ -431,7 +431,7 @@ em {
 
 .banner_copy .bcopy {
     top: -2px;
-    left: 360px;
+    left: 350px;
     display: block;
     width: 77px;
     height: 30px;
@@ -460,7 +460,6 @@ em {
     height: 417px;
     position: relative;
     margin-bottom: 80px;
-    background: url(http://res.cngoldres.com/group/img/gppsq_section_allbg.png) 0 0 no-repeat;
 }
 
 .section.no {
