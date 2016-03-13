@@ -1047,10 +1047,10 @@ em {
 
 .ag_fwindow_ywp{position:fixed;bottom:240px;left:10px;_position:absolute;_top:expression(eval(document.documentElement.clientHeight/2+document.documentElement.scrollTop+44))}
 .ag_fwindow_ywp,.ag_fwindow_ywpcon a.ahref,.ag_fwindow_ywpcon{width:144px;height:254px}
-.ag_fwindow_ywpcon{position:relative;z-index:2;background:url(http://res.cngoldres.com/group/img/fwindow_ywp_tyq.png?v=20160223) 0px 0px no-repeat}
-.ag_fwindow_ywpcon a.aclose{position:absolute;width:18px;height:65px;overflow:hidden;background:url(http://res.cngoldres.com/group/img/fwindow_ywp_tyq.png?v=20160223) -2px -256px no-repeat;bottom:10px;right:-18px}
+.ag_fwindow_ywpcon{position:relative;z-index:2;background:url('') 0px 0px no-repeat}
+.ag_fwindow_ywpcon a.aclose{position:absolute;width:18px;height:65px;overflow:hidden;background:url('') -2px -256px no-repeat;bottom:10px;right:-18px}
 .ag_fwindow_ywpcon a.aclose:hover{width:20px;background-position:0px -256px;right:-20px}
 .ag_fwindow_ywpcon02{position:relative;z-index:1;top:-105px;left:0}
 .ag_fwindow_ywpcon02,.ag_fwindow_ywpcon02 a.aopen{width:80px;height:101px}
-.ag_fwindow_ywpcon02 a.aopen{display:block;background:url(http://res.cngoldres.com/group/img/fwindow_ywp_tyq.png?v=20160223) -21px -259px no-repeat;overflow:hidden}
+.ag_fwindow_ywpcon02 a.aopen{display:block;background:url('') -21px -259px no-repeat;overflow:hidden}
 .ag_fwindow_ywpcon a.ahref,.ag_fwindow_ywpcon a.aclose,.ag_fwindow_ywpcon02 a.aopen{display:block;text-indent:-999em;cursor:pointer}
