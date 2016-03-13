@@ -345,7 +345,7 @@ em {
     left: 9px;
     width: 1029px;
     height: 500px;
-    background: url(http://res.cngoldres.com/group/img/gppsq_banner_bg.png) 0 0 no-repeat;
+
     text-indent: -999em;
     z-index: 1;
     overflow: hidden;
@@ -356,7 +356,7 @@ em {
     left: 78px;
     width: 844px;
     height: 68px;
-    background: url(http://res.cngoldres.com/group/img/gppsq_banner_bg.png) 0 -501px no-repeat;
+
     text-indent: -999em;
     overflow: hidden;
 }

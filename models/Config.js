@@ -19,6 +19,7 @@ var ConfigSchema = new Schema({
     pic5: String,
     pic6: String,
     pic7: String,
+    pic8: String,
     str1: String,
     str2: String,
     str3: String,
