@@ -12,7 +12,9 @@ a:hover {
     color: #1875d1;
     text-decoration: none;
 }
-
+a , input{
+    outline: none;
+}
 ul li {
     list-style-type: none;
 }
@@ -550,9 +552,6 @@ em {
     border: 0;
     width: 100px;
     text-align: center;
-    padding: 10px 0;
-    margin: 0;
-    height: 18px;
     font-size: 20px;
     color: #b63b00;
     background: none;
@@ -703,7 +702,6 @@ em {
     height: 41px;
     border-radius: 20px;
     border-radius: 20px;
-    line-height: 5px;
 }
 
 .con02_4 .con_pcopy span, .con02_4 .con_pcopy a {
