@@ -509,17 +509,14 @@ em {
 
 .section_tit span.stit02 {
     width: 404px;
-    background: url(http://res.cngoldres.com/group/img/gppsq_section_allbg.png) -506px -567px no-repeat;
 }
 
 .section_tit span.stit03 {
     width: 189px;
-    background: url(http://res.cngoldres.com/group/img/gppsq_section_allbg.png) -392px -764px no-repeat;
 }
 
 .section_tit span.stit04 {
     width: 325px;
-    background: url(http://res.cngoldres.com/group/img/gppsq_section_allbg.png) -583px -764px no-repeat;
 }
 
 /* con common */
@@ -631,7 +628,6 @@ em {
     right: 30px;
     z-index: 2;
     text-indent: -999em;
-    background: url(http://res.cngoldres.com/group/img/gppsq_con_ppbg.png) -152px 0 no-repeat;
     overflow: hidden;
 }
 
@@ -681,13 +677,9 @@ em {
     margin: 4px 0;
 }
 
-.con02_4 .box_btns .btn01 {
-    background: url(http://res.cngoldres.com/group/img/gppsq_QQbtn01.png) 0 0 no-repeat;
-}
 
-.con02_4 .box_btns .btn02 {
-    background: url(http://res.cngoldres.com/group/img/gppsq_QQbtn03.png) 0 0 no-repeat;
-}
+
+
 
 .con02_4 .box_btns .btn:hover, .con02_4 .box_btns .btn a:hover {
     text-decoration: none;
@@ -784,12 +776,10 @@ em {
 }
 
 .con03 dl dd {
-    margin-top: 4px;
+    margin-top: 10px;
 }
 
-.con03 dl dd a {
-    background: url(http://res.cngoldres.com/group/img/gppsq_QQbtn02.png) 0 0 no-repeat;
-}
+
 
 .con03 dl dd a:hover {
     text-decoration: none;
