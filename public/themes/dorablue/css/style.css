@@ -484,7 +484,7 @@ em {
 }
 
 .section_tit.title01 {
-    left: 285px;
+    left: 365px;
     top: -50px;
     height: 80px;
 }
@@ -581,7 +581,7 @@ em {
     float: left;
     width: 151px;
     height: 319px;
-    background: url(http://res.cngoldres.com/group/img/gppsq_con_ppbg.png) 0 0 no-repeat;
+
     text-indent: -999em;
     overflow: hidden;
 }
