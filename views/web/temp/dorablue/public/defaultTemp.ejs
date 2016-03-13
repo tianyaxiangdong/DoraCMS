@@ -22,10 +22,25 @@
     <link href="/themes/<%=staticforder%>/css/style.css?vesion=<%=siteConfig.version%>" rel="stylesheet">
 </head>
 
-<body style="background: url('<%=(cateTypes[0].pic1).replace("smallimgs","images")%>') repeat ">
+<body style="background: url('<%=(cateTypes[0].pic1||'').replace("smallimgs","images")%>') repeat ">
+
+<p>1：<%=(cateTypes[0].pic1)%></p>
+<p>2：<%=(cateTypes[0].pic2)%></p>
+<p>3：<%=(cateTypes[0].pic3)%></p>
+<p>4：<%=(cateTypes[0].pic4)%></p>
+<p>5：<%=(cateTypes[0].pic5)%></p>
+<p>6：<%=(cateTypes[0].pic6)%></p>
+<p>7：<%=(cateTypes[0].pic7)%></p>
+<p>8：<%=(cateTypes[0].pic8)%></p>
+<p>9：<%=(cateTypes[0].pic9)%></p>
+<p>10：<%=(cateTypes[0].pic10)%></p>
+<p>11：<%=(cateTypes[0].pic11)%></p>
+<p>12：<%=(cateTypes[0].pic12)%></p>
+<p>13：<%=(cateTypes[0].pic13)%></p>
+<p>14：<%=(cateTypes[0].pic14)%></p>
 <%- include header %>
 
-<div>
+<div style="margin-top: 60px;">
     <%-body %>
 </div>
 

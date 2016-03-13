@@ -1,4 +1,4 @@
-<div class="constant" style="background: url('<%=(cateTypes[0].pic2).replace("smallimgs","images")%>') center top no-repeat ">
+<div class="constant" style="background: url('<%=(cateTypes[0].pic2|| "").replace("smallimgs","images")%>') center top no-repeat ">
     <!---下面是新增内容-->
     <script type="text/javascript" src="http://cbjs.baidu.com/js/s.js"></script>
     <link type="text/css" rel="stylesheet" href="http://res.cngoldres.com/group/css/ywp_windown.css" />
@@ -19,18 +19,18 @@
 
 
     <div class="banner">
-    <h1 class="banner_h1 imgpng" style="background: url('<%=(cateTypes[0].pic4).replace("smallimgs","images")%>')  no-repeat;">股票拜师群 深套向盈利逆袭</h1>
-    <p class="banner_h2 imgpng" style="background: url('<%=(cateTypes[0].pic5).replace("smallimgs","images")%>')  no-repeat;">加入QQ群 免费获悉<b>下只黑马股</b>信息<span>[剩余名额23人]</span></p>
-    <p class="banner_btn"><a href="javascript:void(0);" class="click_gpjq imgpng" style="background: url('<%=(cateTypes[0].pic6).replace("smallimgs","images")%>')  no-repeat;">一键点击加群</a></p>
+    <h1 class="banner_h1 imgpng" style="background: url('<%=(cateTypes[0].pic4|| "").replace("smallimgs","images")%>')  no-repeat;">股票拜师群 深套向盈利逆袭</h1>
+    <p class="banner_h2 imgpng" style="background: url('<%=(cateTypes[0].pic5|| "").replace("smallimgs","images")%>')  no-repeat;">加入QQ群 免费获悉<b>下只黑马股</b>信息<span>[剩余名额23人]</span></p>
+    <p class="banner_btn"><a href="javascript:void(0);" class="click_gpjq imgpng" style="background: url('<%=(cateTypes[0].pic6|| "").replace("smallimgs","images")%>')  no-repeat;">一键点击加群</a></p>
     <p class="banner_copy imgpng clearfix"><i class="fl">手动搜索QQ群号：</i>
         <input  readonly value="498399069" type="text" id="copybanner" class="bcopytext fl QQqun_copytext" />
-        <span class="bcopy" style="background: url('<%=(cateTypes[0].pic7).replace("smallimgs","images")%>')  no-repeat;" onclick="copytext('copybanner')">复制</span></p>
+        <span class="bcopy" style="background: url('<%=(cateTypes[0].pic7|| "").replace("smallimgs","images")%>')  no-repeat;" onclick="copytext('copybanner')">复制</span></p>
     <i class="banner_star">星星</i>
-    <span class="banner_bg imgpng" style="background: url('<%=(cateTypes[0].pic3).replace("smallimgs","images")%>') 0 0 no-repeat;"></span> </div>
+    <span class="banner_bg imgpng" style="background: url('<%=(cateTypes[0].pic3|| "").replace("smallimgs","images")%>') 0 0 no-repeat;"></span> </div>
 
 <div class="main">
-    <div class="section imgpng" style="background: url('<%=(cateTypes[0].pic8).replace("smallimgs","images")%>') no-repeat;">
-        <h2 class="section_tit title01 imgpng" style="background: url('<%=(cateTypes[0].pic9).replace("smallimgs","images")%>') no-repeat;"><span class="stit01">你是否也有同样的感触?</span></h2>
+    <div class="section imgpng" style="background: url('<%=(cateTypes[0].pic8|| "").replace("smallimgs","images")%>') 0 0 no-repeat;">
+        <h2 class="section_tit title01 imgpng" <%=(cateTypes[0].pic9|| "").replace("smallimgs","images")%>><span class="stit01">你是否也有同样的感触?</span></h2>
         <dl class="con01 clearfix">
             <dt class="imgpng">大哭！</dt>
             <dd class="con_text">一直想不明白：<br />
