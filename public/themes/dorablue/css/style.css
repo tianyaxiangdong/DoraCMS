@@ -368,7 +368,7 @@ em {
     line-height: 54px;
     text-align: center;
     font-size: 30px;
-    color: #543300;
+    color: #995D00;
 
     overflow: hidden;
 }
@@ -392,7 +392,7 @@ em {
 
 .banner_btn {
     display: block;
-    top: 285px;
+    top: 295px;
     left: 308px;
     width: 344px;
     height: 90px;
@@ -414,29 +414,28 @@ em {
 }
 
 .banner_copy {
-    top: 395px;
-    left: 248px;
+    top: 415px;
+    left: 228px;
     font-size: 24px;
     line-height: 30px;
-    color: #502900;
+    color: #FFF8F3;
 }
 
 .banner_copy .bcopytext {
     border: 0;
     background: none;
     font-size: 24px;
-    height: 18px;
-    padding: 6px 0;
-    color: #502900;
+    height: 30px;
+    color: #FFAF5B;
 }
 
 .banner_copy .bcopy {
     top: -2px;
-    left: 350px;
+    left: 360px;
     display: block;
     width: 77px;
     height: 30px;
-    background: url(http://res.cngoldres.com/group/img/gppsq_section_allbg.png) -833px -431px no-repeat;
+
     cursor: pointer;
     text-indent: -999em;
     overflow: hidden;
