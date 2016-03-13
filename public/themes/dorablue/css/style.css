@@ -354,15 +354,14 @@ em {
 .banner_h1 {
     top: 36px;
     left: 78px;
-    width: 844px;
-    height: 68px;
-
+    width: 850px;
+    height: 108px;
     text-indent: -999em;
     overflow: hidden;
 }
 
 .banner_h2 {
-    top: 138px;
+    top: 200px;
     left: 121px;
     width: 759px;
     height: 54px;
@@ -370,7 +369,7 @@ em {
     text-align: center;
     font-size: 30px;
     color: #543300;
-    background: url(http://res.cngoldres.com/group/img/gppsq_banner_bg.png) 0 -570px no-repeat;
+
     overflow: hidden;
 }
 
@@ -389,13 +388,12 @@ em {
     text-indent: -999em;
     display: block;
     z-index: 4;
-    background: url(http://res.cngoldres.com/group/img/gppsq_banner_bg.png) 0 -624px no-repeat;
 }
 
 .banner_btn {
     display: block;
-    top: 216px;
-    left: 328px;
+    top: 285px;
+    left: 308px;
     width: 344px;
     height: 90px;
 }
@@ -408,7 +406,6 @@ em {
     font-size: 30px;
     color: #fff;
     text-align: center;
-    background: url(http://res.cngoldres.com/group/img/gppsq_banner_bg.png) -685px -644px no-repeat;
 }
 
 .banner_btn a:hover {
@@ -417,8 +414,8 @@ em {
 }
 
 .banner_copy {
-    top: 325px;
-    left: 298px;
+    top: 395px;
+    left: 248px;
     font-size: 24px;
     line-height: 30px;
     color: #502900;
