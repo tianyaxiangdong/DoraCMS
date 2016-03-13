@@ -472,7 +472,7 @@ em {
 
 .section_tit {
     position: absolute;
-    top: -20px;
+    top: -50px;
     left: 210px;
     width: 492px;
     height: 80px;
@@ -481,7 +481,6 @@ em {
     color: #fff;
     font-weight: normal;
     text-align: center;
-    background: url(http://res.cngoldres.com/group/img/gppsq_section_allbg.png) 0 -561px no-repeat;
     overflow: hidden;
 }
 
@@ -535,7 +534,7 @@ em {
 .con_pcopy {
     color: #b63b00;
     width: 325px;
-    height: 28px;
+    height: 38px;
     background: #f1d9b6;
     border: 1px dotted #b63b00;
     font-size: 20px;
@@ -560,8 +559,8 @@ em {
 .con_pcopy span, .con_pcopy a {
     float: right;
     width: 80px;
-    height: 26px;
-    line-height: 26px;
+    height: 34px;
+    line-height: 34px;
     margin: 1px 1px 0 0;
     background: #b63b00;
     border-radius: 14px;
@@ -700,7 +699,7 @@ em {
     float: right;
     margin-top: 13px;
     height: 41px;
-    border-radius: 20px;
+    line-height: 41px;
     border-radius: 20px;
 }
 
@@ -733,10 +732,14 @@ em {
 
 .con03 table th {
     background: #e0be8e;
+    text-align: center;
+    border-right: 1px solid #C8C8B2;
 }
 
 .con03 table td {
     background: #fff7db;
+    border-right: 1px solid #C8C8B2;
+    border-bottom: 1px solid #C8C8B2;
 }
 
 .con03 dl {
@@ -765,7 +768,6 @@ em {
     width: 110px;
     text-align: center;
     padding: 5px 0;
-    height: 18px;
     font-size: 20px;
     color: #b63b00;
     background: none;
